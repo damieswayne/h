@@ -94,7 +94,7 @@ export default function New() {
         <>
             <div className="box-border p-5">
                 <div className="h-[400px] w-full border border-black rounded-xl">
-                    <canvas ref={canvasRef} id="cvna" className='h-full w-full rounded-xl bg-white'></canvas>
+                    <canvas ref={canvasRef} id="cvna" className='h-full w-full bg-white'></canvas>
                 </div>
                 <div className='m-5 flex gap-4 mt-8'>
                     <button onClick={saveAsImage} className="bg-blue-700 p-3 text-white text-sm pl-4 pr-4 transition-transform outline-none border-none hover:scale-95 w-full">Download</button>
