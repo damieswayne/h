@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: 'Sign-Ease',
+  title: 'SignEase',
   description: 'Sign Online With Ease.',
 }
 
