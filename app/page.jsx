@@ -92,7 +92,7 @@ export default function New() {
     return (
         <>
             <div className="box-border p-5">
-                <div className="h-[400px] w-full border rounded-xl">
+                <div className="h-[400px] w-full border border-black rounded-xl">
                     <canvas ref={canvasRef} id="cvna" className='h-full w-full rounded-xl bg-white'></canvas>
                 </div>
                 <div className='m-5 flex gap-2 mt-8'>
